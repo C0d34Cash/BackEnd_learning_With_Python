@@ -21,5 +21,4 @@ print(hey)
 
 
 # Calling a function
-
 print(anothertuple.count(7))
