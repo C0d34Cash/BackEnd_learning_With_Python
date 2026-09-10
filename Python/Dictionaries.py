@@ -32,3 +32,23 @@ print("!" in band)
 band["vocals"] = "Coverdale"
 band.update({"bass": "JPJ"})
 print(band)
+
+# Rwemove items
+print(band.pop("bass"))
+print(band)
+
+band["drums"] = "Bonham"
+print(band)
+
+print(band.popitem()) #tuple
+print(band)
+
+# Delete and clear
+band["drums"] = "Bonham"
+del band["drums"]
+print(band)
+
+band2.clear()
+print(band2)
+
+del band2
