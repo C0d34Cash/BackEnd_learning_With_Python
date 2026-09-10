@@ -50,6 +50,38 @@ del users[0]
 
 
 # Sorting a list
+users[1:2] = ["dave"]
 users.sort()
 print(users)
 
+users.sort(key=str.lower)
+print(users)
+
+nums =[4,42,78,1,5]
+nums.reverse()
+print(nums)
+
+#nums.sort(reverse=True)
+#print(nums)
+
+print(sorted(nums, reverse=True))
+print(nums)
+
+print(" ")
+print(" ")
+
+# Three different ways to copy a list
+numscopy = nums.copy()
+mynums = list(nums)
+mycopy =nums[:]
+
+print(numscopy)
+print(mynums)
+mycopy.sort()
+print(mycopy)
+print(nums)
+
+print(type(nums))
+
+mylist = list([1,"Murgi",True])
+print(mylist)
