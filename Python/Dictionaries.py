@@ -52,3 +52,14 @@ band2.clear()
 print(band2)
 
 del band2
+
+# Copy Dictionaries
+
+band2 = band # Creates a reference
+print("Bad copy!")
+
+print(band)
+print(band2)
+
+band2["drums"] = "Dave"
+print(band)
