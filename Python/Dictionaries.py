@@ -58,8 +58,23 @@ del band2
 band2 = band # Creates a reference
 print("Bad copy!")
 
+# print(band)
+# print(band2)
+
+# band2["drums"] = "Dave"
+# print(band)
+
+band2 = band.copy()
+band2["drums"] = "Dave"
 print(band)
 print(band2)
 
-band2["drums"] = "Dave"
-print(band)
+print("Good Copy")
+
+print("\n\n\n\n")
+
+
+#or use the dict() constructor function
+band3 = dict(band)
+print("Good copy")
+print(band3)
