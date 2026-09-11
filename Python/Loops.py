@@ -14,3 +14,7 @@ while value <= 10:
     print(value)
 else:
     print("now value is equal to " + str(value))
+
+names = ["Debojyoti","Ankan","Sandipan"]
+for x in names:
+    print(x)
