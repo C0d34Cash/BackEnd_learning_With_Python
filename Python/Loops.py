@@ -12,3 +12,5 @@ while value <= 10:
     if value == 5:
         continue
     print(value)
+else:
+    print("now value is equal to " + str(value))
