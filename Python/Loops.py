@@ -16,5 +16,15 @@ else:
     print("now value is equal to " + str(value))
 
 names = ["Debojyoti","Ankan","Sandipan"]
+# for x in names:
+#     print(x)
+
+
+# for x in ["Mississippi"]:
+#     print(x)
+
+
 for x in names:
+    if x == "Sandipan":
+        break
     print(x)
