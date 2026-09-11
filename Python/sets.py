@@ -38,3 +38,16 @@ three = {90,89,45,54}
 
 mynewset = one.union(two)
 print(mynewset)
+
+#  Keep only the duplicates
+four = {1,2,3}
+five = {2,3,5}
+
+four.intersection_update(five)
+print(four)
+
+# keep everything except the duplicates
+four = {1,2,3}
+five = {2,3,5}
+four.symmetric_difference_update(five)
+print(four)
