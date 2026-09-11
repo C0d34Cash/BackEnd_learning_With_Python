@@ -24,7 +24,14 @@ names = ["Debojyoti","Ankan","Sandipan"]
 #     print(x)
 
 
+# for x in names:
+#     if x == "Sandipan":
+#         break
+#     print(x)
+
+
+
 for x in names:
     if x == "Sandipan":
-        break
+        continue
     print(x)
